@@ -1,206 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Software Engineer</title>
-    <meta name="description"
-        content="Portfolio of a Computer Science student passionate about embedded systems and software engineering.">
+    <title>Szymon.exe // 90s Electronics Eng.</title>
+    <meta name="description" content="Portfolio of a retro-loving embedded systems engineer.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+<body class="crt">
+    <div class="grid-bg"></div>
 
-<body>
-    <div class="blob-bg"></div>
-
-    <nav class="navbar glass">
-        <div class="logo">Portfolio.</div>
+    <nav class="navbar retro-border">
+        <div class="logo">Szymon<span class="blink">_</span></div>
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#about">[ABOUT]</a></li>
+            <li><a href="#smartball">[SMART-BALL]</a></li>
+            <li><a href="#projects">[PROJECTS]</a></li>
+            <li><a href="#skills">[SKILLS]</a></li>
         </ul>
-        <a href="https://github.com" target="_blank" class="btn-primary">GitHub Profile</a>
+        <a href="https://github.com/Szymek200" target="_blank" class="btn-neon">RUN github.exe</a>
     </nav>
 
     <header id="home" class="hero">
-        <div class="hero-content">
-            <span class="badge">Computer Science Student ✨</span>
-            <h1 class="hero-title">Software Engineer & <br><span class="gradient-text">Embedded Enthusiast</span></h1>
-            <p class="hero-subtitle">6th semester student at the Silesian University of Technology with practical
-                experience in the full SDLC, from architecture to testing.</p>
-            <div class="hero-actions">
-                <a href="#projects" class="btn-primary glow">View Projects</a>
-                <a href="#about" class="btn-secondary">More About Me</a>
+        <div class="hero-content retro-window">
+            <div class="window-header">
+                <span>C:\SYS\USER\INFO.EXE</span>
+                <span class="close-btn">X</span>
+            </div>
+            <div class="window-body">
+                <p>> INIT: Loading profile...</p>
+                <h1 class="hero-title">SZYMON MAMOK<br><span class="text-cyan">EMBEDDED ENGINEER</span></h1>
+                <p class="hero-subtitle">> System status: 6th semester Computer Science student at Silesian University of Technology.<br>> Mission: Bridging hardware and software via deep-level code.</p>
+                <div class="hero-actions">
+                    <a href="#smartball" class="btn-neon magenta">EXEC SMARTBALL.BAT</a>
+                </div>
             </div>
         </div>
         <div class="hero-visual">
-            <div class="img-wrapper glass">
-                <img src="assets/hero_image.png" alt="Futuristic 3D Abstract Digital Art representing technology"
-                    loading="lazy">
+            <div class="img-wrapper retro-border">
+                <img src="assets/retro_hero.png" alt="90s Retro Electronics" loading="lazy">
             </div>
         </div>
     </header>
 
-    <section id="about" class="section">
+    <section id="smartball" class="section">
         <div class="section-header">
-            <h2 class="section-title">Professional Objective & Education</h2>
-            <p class="section-subtitle">Bridging the gap between hardware and software.</p>
+            <h2 class="section-title text-magenta">> FEATURED_PROJECT: SMART-BALL</h2>
         </div>
-        <div class="about-grid">
-            <div class="about-card glass tilt">
-                <h3><span class="icon">🎯</span> Objective</h3>
-                <p>I am an ambitious Computer Science student passionate about embedded systems and software
-                    engineering. I have successfully completed advanced projects combining hardware layers (ESP32) with
-                    mobile applications (Kotlin) and systems based on microservices.</p>
-                <p>I am seeking an internship where I can develop my skills in commercial projects, maintaining high
-                    code quality in accordance with SOLID and Clean Code principles.</p>
+        <div class="featured-wrapper retro-window">
+             <div class="window-header">
+                <span>C:\PROJECTS\SMARTBALL.EXE</span>
+                <span class="close-btn">X</span>
             </div>
-            <div class="about-card glass tilt">
-                <h3><span class="icon">🎓</span> Education</h3>
-                <h4>Silesian University of Technology</h4>
-                <p class="highlight-text">Faculty of Automatic Control, Electronics and Computer Science in Gliwice</p>
-                <ul>
-                    <li><strong>Status:</strong> 3rd Year (6th Semester) - B.Eng. Computer Science</li>
-                    <li><strong>Key Subjects:</strong> Algorithms and Data Structures, Object-Oriented Programming,
-                        Computer Systems Architecture</li>
-                    <li><strong>CRC courses:</strong> Data Science in a financial institution; Architecture of AI-based
-                        projects.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="section">
-        <div class="section-header">
-            <h2 class="section-title">Technical Skills</h2>
-            <p class="section-subtitle">Technologies and tools I work with daily.</p>
-        </div>
-        <div class="feature-grid">
-            <div class="feature-card glass">
-                <h3>Programming</h3>
-                <p><strong>Advanced:</strong> C++</p>
-                <p><strong>Intermediate:</strong> C, Python, Java, Kotlin</p>
-                <p><strong>Beginner:</strong> C#, TypeScript, Swift</p>
-            </div>
-            <div class="feature-card glass">
-                <h3>Software Engineering</h3>
-                <p>Full Software Development Life Cycle (SDLC), Design Patterns, Code Quality (Clean Code, SOLID, DRY).
-                </p>
-                <p><strong>Core:</strong> OOP, Algorithms & Data Structures (Trees, Lists, Graphs).</p>
-            </div>
-            <div class="feature-card glass">
-                <h3>App Development</h3>
-                <p><strong>Mobile:</strong> Android Studio (Kotlin), Xcode (Swift)</p>
-                <p><strong>Desktop/UI:</strong> Qt, PyQt, Avalonia, SFML</p>
-                <p><strong>Systems/Web:</strong> Node.js, HTML5/CSS/JS, MongoDB, MySQL, SQLite</p>
-                <p><strong>Game:</strong> Unity</p>
-            </div>
-            <div class="feature-card glass">
-                <h3>Low-Level & Hardware</h3>
-                <p><strong>Embedded:</strong> ESP32, PIC Microcontrollers</p>
-                <p><strong>Assembly:</strong> Intel x86 (MASM, NASM)</p>
-                <p><strong>Tools:</strong> Linux CLI, Git, AutoCAD, Fusion360</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <div class="section-header">
-            <h2 class="section-title">Selected Projects</h2>
-            <p class="section-subtitle">Showcasing my capabilities across different stacks.</p>
-        </div>
-        <div class="projects-grid">
-            <div class="project-card glass">
-                <div class="project-content">
-                    <h3>Smart-ball</h3>
-                    <p class="tech-stack">ESP32 / Kotlin / UDP / Quaternion Fusion</p>
-                    <ul>
-                        <li>Intelligent training system monitoring ball movement dynamics, measuring impact force (up to
-                            400g) and rotation in real-time.</li>
-                        <li>Utilizes ESP32-WROOM with an accelerometer and gyroscope, processed via quaternion fusion
-                            algorithms.</li>
-                        <li>Wireless communication via UDP with a custom Kotlin mobile app. Housed in a custom
-                            3D-printed PET-G casing.</li>
-                    </ul>
+            <div class="window-body">
+                <h3 class="text-cyan">*** IoT SPORTS TRAINING SYSTEM ***</h3>
+                <p>An intelligent training system that monitors ball movement dynamics, measuring impact force (up to 400g) and rotation parameters in real-time.</p>
+                
+                <div class="architecture-split">
+                    <div class="arch-col retro-border">
+                        <h4 class="text-magenta">[PRODUCER: ESP32]</h4>
+                        <p>Equipped with H3LIS331DL & L3G4200D. Processes raw motion data, compensates for gravity using quaternions, detects strikes using a circular buffer.</p>
+                    </div>
+                    <div class="arch-col retro-border">
+                        <h4 class="text-magenta">[CONSUMER: MOBILE APP]</h4>
+                        <p>Connects via Wi-Fi AP and receives processed stats over a high-speed binary UDP protocol.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="project-card glass">
-                <div class="project-content">
-                    <h3>Java-shop</h3>
-                    <p class="tech-stack">Java / Payara / JDBC / JUnit 5 / Web</p>
-                    <ul>
-                        <li>A robust simulation covering interactions between sellers and customers.</li>
-                        <li>Sellers manage inventory, update prices, and finalize receipts; customers perform purchases
-                            with automated fund deductions.</li>
-                        <li>Implemented using Payara server and JDBC database, with 100% unit test coverage via JUnit 5.
-                            Frontend in HTML5/CSS/JS.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="project-card glass">
-                <div class="project-content">
-                    <h3>Smart-home simulator</h3>
-                    <p class="tech-stack">.NET (Avalonia) / Python / Node.js / MongoDB</p>
-                    <ul>
-                        <li>Microservices architecture for remote control and real-time monitoring of virtual devices
-                            (lighting, blinds, sensors).</li>
-                        <li>Python acts as a mediator between a C# desktop control panel and an emulated hardware layer
-                            built with Node.js.</li>
-                        <li>Implements hybrid communication using REST API and MQTT protocols.</li>
-                    </ul>
+
+                <div class="tech-tags">
+                    <span>ESP32-WROOM</span>
+                    <span>FreeRTOS</span>
+                    <span>LwIP_UDP</span>
+                    <span>Kotlin</span>
+                    <span>PET-G</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="experience" class="section">
-        <div class="section-header">
-            <h2 class="section-title">Experience & Languages</h2>
-            <p class="section-subtitle">Beyond the keyboard.</p>
-        </div>
-        <div class="about-grid">
-            <div class="about-card glass tilt">
-                <h3><span class="icon">🛟</span> WOPR Lifeguard</h3>
-                <h4>Volunteer Water Rescue Service (2022 - Present)</h4>
-                <ul>
-                    <li><strong>Soft Skills:</strong> Mastering high-stress management, rapid problem-solving, and
-                        leadership in emergency situations.</li>
-                    <li><strong>Teamwork:</strong> Effective communication within a rescue team and handling public
-                        relations.</li>
-                    <li>Developed the ability to work under high pressure, make quick decisions, and maintain clear team
-                        communication in critical scenarios.</li>
-                </ul>
+    <div class="scroll-container">
+        <section id="about" class="section">
+            <div class="about-grid">
+                <div class="retro-window">
+                    <div class="window-header"><span>OBJECTIVE.TXT</span></div>
+                    <div class="window-body">
+                        <p>> Passions: Embedded systems, Software Engineering, hardware-level architecture.</p>
+                        <p>> Looking for an internship to develop commercial projects utilizing SOLID and Clean Code.</p>
+                    </div>
+                </div>
+                <div class="retro-window">
+                    <div class="window-header"><span>EDUCATION.DAT</span></div>
+                    <div class="window-body">
+                        <h4 class="text-cyan">Silesian University of Technology</h4>
+                        <p>Faculty: Auto Control, Electronics & CS</p>
+                        <p>Status: 3rd Year (6th Sem) B.Eng.</p>
+                        <p>Subjects: Algorithms, OOP, Systems Architecture</p>
+                    </div>
+                </div>
             </div>
-            <div class="about-card glass tilt">
-                <h3><span class="icon">🌍</span> Languages</h3>
-                <ul>
-                    <li><strong>English:</strong> C1 Level (Certified by FCE, 2022)</li>
-                    <li>Proficient in working with technical documentation and team communication in international
-                        environments.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <footer class="footer glass">
+        <section id="skills" class="section">
+            <div class="section-header">
+                <h2 class="section-title text-cyan">> SYS_SPECS: TECHNICAL SKILLS</h2>
+            </div>
+            <div class="feature-grid">
+                <div class="retro-window">
+                    <div class="window-header"><span>PROGRAMMING.DLL</span></div>
+                    <div class="window-body">
+                        <p><span class="text-magenta">ADV:</span> C++</p>
+                        <p><span class="text-magenta">INT:</span> C, Python, Java, Kotlin</p>
+                        <p><span class="text-magenta">BEG:</span> C#, TypeScript, Swift</p>
+                    </div>
+                </div>
+                <div class="retro-window">
+                    <div class="window-header"><span>HARDWARE.SYS</span></div>
+                    <div class="window-body">
+                        <p><span class="text-magenta">MCU:</span> ESP32, PIC</p>
+                        <p><span class="text-magenta">ASM:</span> Intel x86 (MASM, NASM)</p>
+                        <p><span class="text-magenta">CAD:</span> Linux, Fusion360</p>
+                    </div>
+                </div>
+                <div class="retro-window">
+                    <div class="window-header"><span>ENGINEERING.LIB</span></div>
+                    <div class="window-body">
+                        <p>Clean Code, SOLID, DRY</p>
+                        <p>OOP, Algorithms</p>
+                        <p>Unit Testing (JUnit 5)</p>
+                    </div>
+                </div>
+                <div class="retro-window">
+                    <div class="window-header"><span>APP_DEV.EXE</span></div>
+                    <div class="window-body">
+                        <p><span class="text-magenta">MOB:</span> Android Studio, Xcode</p>
+                        <p><span class="text-magenta">DESK:</span> Qt, PyQt, Avalonia</p>
+                        <p><span class="text-magenta">WEB:</span> Node.js, SQL, MongoDB</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-header">
+                <h2 class="section-title">> DIR C:\OTHER_PROJECTS</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="retro-window">
+                    <div class="window-header"><span>JAVA_SHOP.JAR</span></div>
+                    <div class="window-body">
+                        <p class="text-cyan">Java | Payara | JDBC</p>
+                        <p>A simulation of interactions between sellers and customers. Includes inventory management, automatic fund deductions, and 100% unit-tested logic via JUnit 5. Features a web frontend.</p>
+                    </div>
+                </div>
+                <div class="retro-window">
+                    <div class="window-header"><span>HOME_SIM.EXE</span></div>
+                    <div class="window-body">
+                        <p class="text-cyan">.NET | Python | Node.js</p>
+                        <p>Microservices architecture for remote control and real-time monitoring of virtual devices. Uses Python as a mediator between a C# panel and Node.js emulated hardware over MQTT/REST.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="retro-footer">
         <div class="footer-content">
-            <h2 class="footer-title">Let's build something great.</h2>
-            <a href="https://github.com" target="_blank" class="btn-primary glow">Visit my GitHub</a>
+            <h2 class="text-magenta">> SYSTEM HALTED - READY FOR WORK</h2>
+            <a href="https://github.com/Szymek200" class="btn-neon">CONNECT VIA GITHUB</a>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Crafted with precision. Built for GitHub Pages.</p>
-        </div>
+        <p class="footer-bottom">COPYRIGHT (C) 1998-2026 SZYMON MAMOK. ALL RIGHTS RESERVED.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>
